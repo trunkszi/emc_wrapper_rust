@@ -1,0 +1,14 @@
+[package]
+edition = "2021"
+name = "strategy"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cxx = "1.0.73"
+wrapper = { path = "../wrapper" }
+ta-lib = {path= "../ta-lib-rs/ta-lib"}
+ctrlc = "3.2.3"
+log = "0.4.17"
+#rug = "1.17.0"
